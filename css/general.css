@@ -1,0 +1,34 @@
+/*
+    Document   : general.css
+    Author     : Eric Asselin - www.ericasselin.com
+	Project	   : 
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    border:none;
+}
+
+.clear-fix {
+    clear:both;
+}
+
+body {
+	background-color:#fff;
+	font-family:Arial,Verdana,Helvetica,sans-serif;
+	font-size:12px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+#wrapper {
+  /* les 4 lignes suivantes servent à centrer le site d'une largeur fixe*/
+	position:absolute;
+	left:50%;
+	width:1024px;
+	margin-left:-512px;
+}
