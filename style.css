@@ -108,7 +108,7 @@ body, select, input, textarea { color:#444; }
    you'll want to define those yourself. */ 
  
 /* www.aestheticallyloyal.com/public/optimize-legibility/ */ 
-h1,h2,h3,h4,h5,h6 { text-rendering: optimizeLegibility; }
+h1,h2,h3,h4,h5,h6 { font-weight:normal; text-rendering: optimizeLegibility; }
 
 /* maxvoltar.com/archive/-webkit-font-smoothing */
 html { -webkit-font-smoothing: antialiased; }
