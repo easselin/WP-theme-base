@@ -8,8 +8,7 @@
 		<div class="post" id="post-<?php the_ID(); ?>">
   		<div id="date"><?php the_time('j F Y') ?></div>
   		<h2>
-  			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-  			<div id="home-comments"><?php comments_popup_link(' (0)', ' (1)', ' (%)'); ?></div><?php edit_post_link('Editer', ' &#124; ', ''); ?></h2>
+  			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
 				
   		<div class="post_content">
   			<?php the_content(); ?>
