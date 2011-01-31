@@ -270,3 +270,6 @@ button {  width: auto; overflow: visible; }
   html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } 
 }
 
+/* Remove Skype in Explorer */
+span.skype_pnh_container {display:none !important;}
+span.skype_pnh_print_container {display:inline !important;}

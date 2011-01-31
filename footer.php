@@ -17,15 +17,6 @@ if ( function_exists( 'yoast_analytics' ) ) {
 
   <!-- Javascript at the bottom for fast page loading -->
 
-  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script type="text/javascript">
-    <![CDATA[
-    !window.jQuery && document.write('<script src="<?php bloginfo('template_url'); ?>/js/jquery-1.4.2.min.js"><\/script>')
-    ]]>
-  </script>
-
-
   <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/plugins.js?v=1"></script>
   <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js?v=1"></script>
 

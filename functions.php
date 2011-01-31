@@ -66,4 +66,7 @@ function cat_is_child_of($catId) {
 	return ( cat_is_ancestor_of( $catId,  get_current_category_id() ) );
 }
 
+if ( function_exists('register_sidebar') )
+    register_sidebar();
+
 ?>
