@@ -41,9 +41,9 @@
   <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
   <script type="text/javascript">
-    <![CDATA[
+    /* <![CDATA[ */
     !window.jQuery && document.write('<script src="<?php bloginfo('template_url'); ?>/js/jquery-1.4.2.min.js"><\/script>')
-    ]]>
+    /* ]]> */
   </script>
 
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
